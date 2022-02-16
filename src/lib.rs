@@ -3,7 +3,6 @@
 
 mod core;
 
-mod tests {
 
     #[test]
     fn itWorks() {
@@ -12,6 +11,5 @@ mod tests {
 
     #[test]
     fn HelloWorld() {
-        assert_eq("Hello World!", SetString());
+        assert_eq!("Hello from SetString!", core::sayHello());
     }
-}
